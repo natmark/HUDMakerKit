@@ -10,6 +10,7 @@
 		E7B2F5F42143F963003B642A /* HUDMakerKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7B2F5EA2143F963003B642A /* HUDMakerKit.framework */; };
 		E7B2F5F92143F963003B642A /* HUDMakerKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B2F5F82143F963003B642A /* HUDMakerKitTests.swift */; };
 		E7B2F5FB2143F963003B642A /* HUDMakerKit.h in Headers */ = {isa = PBXBuildFile; fileRef = E7B2F5ED2143F963003B642A /* HUDMakerKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7B2F6072143FB25003B642A /* CustomizedHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B2F6062143FB25003B642A /* CustomizedHUD.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		E7B2F5F32143F963003B642A /* HUDMakerKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HUDMakerKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7B2F5F82143F963003B642A /* HUDMakerKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HUDMakerKitTests.swift; sourceTree = "<group>"; };
 		E7B2F5FA2143F963003B642A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7B2F6062143FB25003B642A /* CustomizedHUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizedHUD.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				E7B2F5ED2143F963003B642A /* HUDMakerKit.h */,
+				E7B2F6062143FB25003B642A /* CustomizedHUD.swift */,
 				E7B2F5EE2143F963003B642A /* Info.plist */,
 			);
 			path = HUDMakerKit;
@@ -148,6 +151,7 @@
 				TargetAttributes = {
 					E7B2F5E92143F963003B642A = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
 					};
 					E7B2F5F22143F963003B642A = {
 						CreatedOnToolsVersion = 9.4.1;
@@ -194,6 +198,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7B2F6072143FB25003B642A /* CustomizedHUD.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +344,7 @@
 		E7B2F5FF2143F963003B642A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -356,6 +362,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.natmark.HUDMakerKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -364,6 +371,7 @@
 		E7B2F6002143F963003B642A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -389,6 +397,7 @@
 		E7B2F6022143F963003B642A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DEQGLB9PU4;
 				INFOPLIST_FILE = HUDMakerKitTests/Info.plist;
@@ -407,6 +416,7 @@
 		E7B2F6032143F963003B642A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DEQGLB9PU4;
 				INFOPLIST_FILE = HUDMakerKitTests/Info.plist;
