@@ -1,0 +1,13 @@
+osx_image: xcode9.4
+language: objective-c
+branches:
+  only:
+    - master
+before_install:
+    - gem install xcpretty
+before_script:
+    - set -o pipefail
+script:
+    - swiftlint
+    - xcodebuild test -project ./HUDMakerKit.xcodeproj -scheme HUDMakerKitTests -configuration Debug -sdk iphonesimulator -destination 'platform=iOS Simulator,OS=11.4,name=iPhone X' | xcpretty -c
+
