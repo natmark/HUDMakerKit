@@ -10,7 +10,15 @@
 		E7B2F5F42143F963003B642A /* HUDMakerKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7B2F5EA2143F963003B642A /* HUDMakerKit.framework */; };
 		E7B2F5F92143F963003B642A /* HUDMakerKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B2F5F82143F963003B642A /* HUDMakerKitTests.swift */; };
 		E7B2F5FB2143F963003B642A /* HUDMakerKit.h in Headers */ = {isa = PBXBuildFile; fileRef = E7B2F5ED2143F963003B642A /* HUDMakerKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E7B2F6072143FB25003B642A /* CustomizedHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B2F6062143FB25003B642A /* CustomizedHUD.swift */; };
+		E7B2F6072143FB25003B642A /* HUDRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B2F6062143FB25003B642A /* HUDRunner.swift */; };
+		E7B2F63721441132003B642A /* HUDMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B2F63621441132003B642A /* HUDMaker.swift */; };
+		E7B2F63F2144186F003B642A /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B2F63E2144186F003B642A /* Color.swift */; };
+		E7B2F64221441968003B642A /* Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B2F64121441968003B642A /* Frame.swift */; };
+		E7B2F64521441B87003B642A /* Transform.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B2F64421441B87003B642A /* Transform.swift */; };
+		E7B2F64821441C3A003B642A /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B2F64721441C3A003B642A /* Image.swift */; };
+		E7B2F64B21441CB8003B642A /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B2F64A21441CB8003B642A /* Shape.swift */; };
+		E7B2F64D21441CC2003B642A /* Vertex.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B2F64C21441CC2003B642A /* Vertex.swift */; };
+		E7B2F65021441D2C003B642A /* CGPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B2F64F21441D2C003B642A /* CGPoint.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +38,15 @@
 		E7B2F5F32143F963003B642A /* HUDMakerKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HUDMakerKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7B2F5F82143F963003B642A /* HUDMakerKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HUDMakerKitTests.swift; sourceTree = "<group>"; };
 		E7B2F5FA2143F963003B642A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E7B2F6062143FB25003B642A /* CustomizedHUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizedHUD.swift; sourceTree = "<group>"; };
+		E7B2F6062143FB25003B642A /* HUDRunner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HUDRunner.swift; sourceTree = "<group>"; };
+		E7B2F63621441132003B642A /* HUDMaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HUDMaker.swift; sourceTree = "<group>"; };
+		E7B2F63E2144186F003B642A /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		E7B2F64121441968003B642A /* Frame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frame.swift; sourceTree = "<group>"; };
+		E7B2F64421441B87003B642A /* Transform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transform.swift; sourceTree = "<group>"; };
+		E7B2F64721441C3A003B642A /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		E7B2F64A21441CB8003B642A /* Shape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
+		E7B2F64C21441CC2003B642A /* Vertex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vertex.swift; sourceTree = "<group>"; };
+		E7B2F64F21441D2C003B642A /* CGPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGPoint.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +90,8 @@
 			isa = PBXGroup;
 			children = (
 				E7B2F5ED2143F963003B642A /* HUDMakerKit.h */,
-				E7B2F6062143FB25003B642A /* CustomizedHUD.swift */,
+				E7B2F63C2144185C003B642A /* Maker */,
+				E7B2F63B21441843003B642A /* Runner */,
 				E7B2F5EE2143F963003B642A /* Info.plist */,
 			);
 			path = HUDMakerKit;
@@ -87,6 +104,77 @@
 				E7B2F5FA2143F963003B642A /* Info.plist */,
 			);
 			path = HUDMakerKitTests;
+			sourceTree = "<group>";
+		};
+		E7B2F63B21441843003B642A /* Runner */ = {
+			isa = PBXGroup;
+			children = (
+				E7B2F6062143FB25003B642A /* HUDRunner.swift */,
+			);
+			path = Runner;
+			sourceTree = "<group>";
+		};
+		E7B2F63C2144185C003B642A /* Maker */ = {
+			isa = PBXGroup;
+			children = (
+				E7B2F63621441132003B642A /* HUDMaker.swift */,
+				E7B2F64321441B78003B642A /* Transform */,
+				E7B2F64E21441D21003B642A /* Extensions */,
+				E7B2F64921441CAD003B642A /* Shape */,
+				E7B2F64621441C30003B642A /* Image */,
+				E7B2F6402144195A003B642A /* Environment */,
+				E7B2F63D21441864003B642A /* Color */,
+			);
+			path = Maker;
+			sourceTree = "<group>";
+		};
+		E7B2F63D21441864003B642A /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				E7B2F63E2144186F003B642A /* Color.swift */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
+		E7B2F6402144195A003B642A /* Environment */ = {
+			isa = PBXGroup;
+			children = (
+				E7B2F64121441968003B642A /* Frame.swift */,
+			);
+			path = Environment;
+			sourceTree = "<group>";
+		};
+		E7B2F64321441B78003B642A /* Transform */ = {
+			isa = PBXGroup;
+			children = (
+				E7B2F64421441B87003B642A /* Transform.swift */,
+			);
+			path = Transform;
+			sourceTree = "<group>";
+		};
+		E7B2F64621441C30003B642A /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				E7B2F64721441C3A003B642A /* Image.swift */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		E7B2F64921441CAD003B642A /* Shape */ = {
+			isa = PBXGroup;
+			children = (
+				E7B2F64A21441CB8003B642A /* Shape.swift */,
+				E7B2F64C21441CC2003B642A /* Vertex.swift */,
+			);
+			path = Shape;
+			sourceTree = "<group>";
+		};
+		E7B2F64E21441D21003B642A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E7B2F64F21441D2C003B642A /* CGPoint.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,7 +286,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7B2F6072143FB25003B642A /* CustomizedHUD.swift in Sources */,
+				E7B2F63721441132003B642A /* HUDMaker.swift in Sources */,
+				E7B2F64821441C3A003B642A /* Image.swift in Sources */,
+				E7B2F64221441968003B642A /* Frame.swift in Sources */,
+				E7B2F64B21441CB8003B642A /* Shape.swift in Sources */,
+				E7B2F65021441D2C003B642A /* CGPoint.swift in Sources */,
+				E7B2F64521441B87003B642A /* Transform.swift in Sources */,
+				E7B2F64D21441CC2003B642A /* Vertex.swift in Sources */,
+				E7B2F6072143FB25003B642A /* HUDRunner.swift in Sources */,
+				E7B2F63F2144186F003B642A /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -10,17 +10,20 @@ import UIKit
 import HUDMakerKit
 
 class ViewController: UIViewController {
-
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        let customHUD = CustomHUD(frame: CGRect(x: 0, y: 0, width: 150, height: 150))
+        customHUD.backgroundColor = UIColor(red: 0.9, green: 0.9, blue: 0.9, alpha: 1.0)
+        customHUD.layer.cornerRadius = 10
+        HUDRunner.shared.customHUD = customHUD
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func didTapShowButton(_ sender: Any) {
+        HUDRunner.shared.show()
     }
 
-
+    @IBAction func didTapStopButton(_ sender: Any) {
+        HUDRunner.shared.dismiss()
+    }
 }
 
