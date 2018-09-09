@@ -48,13 +48,13 @@ public class HUDRunner: UIWindow {
         fatalError("init(coder:) has not been implemented")
     }
 
-    func centerRect(bounds: CGRect, width: CGFloat, height: CGFloat) -> CGRect{
+    func centerRect(bounds: CGRect, width: CGFloat, height: CGFloat) -> CGRect {
         let x = bounds.origin.x + (bounds.size.width - width) / 2
         let y = bounds.origin.y + (bounds.size.height - height) / 2
         return CGRect(x: x, y: y, width: width, height: height)
     }
 
-    @objc func start(){
+    @objc func start() {
         HUDRunner.shared.isHidden = false
     }
 }
