@@ -29,6 +29,10 @@ class ViewController: UIViewController {
     }
 
     @IBAction func didTapShowButton(_ sender: Any) {
+        if !HUDRunner.shared.isHidden {
+            return
+        }
+
         var customHUD: HUDMaker
         switch tableView.indexPathForSelectedRow?.row {
         case 0:
