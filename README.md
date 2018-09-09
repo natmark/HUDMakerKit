@@ -8,9 +8,17 @@
     <a href="https://github.com/apple/swift">
         <img alt="Swift" src="https://img.shields.io/badge/swift-4.0-orange.svg">
     </a>
-    <a href="https://github.com/natmark/HUDMakerKit/releases">
-        <img src="https://img.shields.io/github/release/natmark/HUDMakerKit.svg"
-             alt="GitHub release">
+    <a href="https://cocoapods.org/pods/HUDMakerKit">
+        <img src="https://img.shields.io/cocoapods/v/HUDMakerKit.svg?style=flat"
+             alt="Pods Version">
+    </a>
+    <a href="https://github.com/natmark/HUDMakerKit/">
+        <img src="https://img.shields.io/cocoapods/p/HUDMakerKit.svg?style=flat"
+             alt="Platforms">
+    </a>
+    <a href="https://github.com/Carthage/Carthage">
+        <img src="https://img.shields.io/badge/Carthage-compatible-brightgreen.svg?style=flat"
+             alt="Carthage Compatible">
     </a>
     <a href="https://github.com/natmark/Donut/blob/master/LICENSE">
         <img src="https://img.shields.io/badge/license-MIT-brightgreen.svg"
