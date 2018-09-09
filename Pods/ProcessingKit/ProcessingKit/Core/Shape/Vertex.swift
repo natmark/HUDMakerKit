@@ -1,12 +1,18 @@
 //
 //  Vertex.swift
-//  HUDMakerKit
+//  ProcessingKit
 //
-//  Created by AtsuyaSato on 2018/09/09.
-//  Copyright © 2018年 Atsuya Sato. All rights reserved.
+//  Created by AtsuyaSato on 2017/09/27.
+//  Copyright © 2017年 Atsuya Sato. All rights reserved.
 //
 
 import Foundation
+
+#if os(iOS)
+import UIKit
+#elseif os(OSX)
+import Cocoa
+#endif
 
 public enum BeginShapeKind {
     case points
@@ -21,39 +27,48 @@ public enum EndShapeMode {
     case none
 }
 
-class VertexComponents {
-    var vertexes: [CGPoint] = []
-    var kind: BeginShapeKind = .none
+public protocol VertexComponentsContract {
+    var vertexes: [CGPoint] { get set }
+    var kind: BeginShapeKind { get set }
 }
 
-protocol VertexModelContract {
-    func beginShape(_ kind: BeginShapeKind)
-    func endShape(_ mode: EndShapeMode)
-    func vertex(_ x: CGFloat, _ y: CGFloat)
+public protocol VertexModelContract {
+    mutating func beginShape(_ kind: BeginShapeKind)
+    mutating func endShape(_ mode: EndShapeMode)
+    mutating func vertex(_ x: CGFloat, _ y: CGFloat)
 }
 
-struct VertexModel: VertexModelContract {
-    private var vertexComponents: VertexComponents
-    private var colorComponents: ColorComponents
+public class VertexComponents: VertexComponentsContract {
+    public var vertexes: [CGPoint] = []
+    public var kind: BeginShapeKind = .none
 
-    init(vertexComponents: VertexComponents, colorComponents: ColorComponents) {
+    public init() {}
+}
+
+public struct VertexModel: VertexModelContract {
+    private var contextComponents: ContextComponenetsContract
+    private var vertexComponents: VertexComponentsContract
+    private var colorComponents: ColorComponentsContract
+
+    public init(contextComponents: ContextComponenetsContract, vertexComponents: VertexComponentsContract, colorComponents: ColorComponentsContract) {
+        self.contextComponents = contextComponents
         self.vertexComponents = vertexComponents
         self.colorComponents = colorComponents
     }
 
-    func beginShape(_ kind: BeginShapeKind) {
+    public mutating func beginShape(_ kind: BeginShapeKind) {
         self.vertexComponents.kind = kind
         self.vertexComponents.vertexes.removeAll()
     }
 
-    func endShape(_ mode: EndShapeMode) {
+    public mutating func endShape(_ mode: EndShapeMode) {
         guard self.vertexComponents.vertexes.count > 0 else {
             return
         }
 
         switch self.vertexComponents.kind {
         case .points:
-            let g = UIGraphicsGetCurrentContext()
+            let g = self.contextComponents.context()
             g?.setFillColor(self.colorComponents.stroke.cgColor)
             for vertex in self.vertexComponents.vertexes {
                 g?.fill(CGRect(x: vertex.x, y: vertex.y, width: self.colorComponents.strokeWeight, height: self.colorComponents.strokeWeight))
@@ -86,12 +101,12 @@ struct VertexModel: VertexModelContract {
         self.vertexComponents.vertexes.removeAll()
     }
 
-    func vertex(_ x: CGFloat, _ y: CGFloat) {
+    public mutating func vertex(_ x: CGFloat, _ y: CGFloat) {
         self.vertexComponents.vertexes.append(CGPoint(x: x, y: y))
     }
 
     private func addLineToPoints(vertexes: [CGPoint], isClosed: Bool) {
-        let g = UIGraphicsGetCurrentContext()
+        let g = self.contextComponents.context()
         setGraphicsConfiguration(context: g)
 
         for (index, vertex) in vertexes.enumerated() {
@@ -111,19 +126,5 @@ struct VertexModel: VertexModelContract {
         context?.setFillColor(self.colorComponents.fill.cgColor)
         context?.setStrokeColor(self.colorComponents.stroke.cgColor)
         context?.setLineWidth(self.colorComponents.strokeWeight)
-    }
-}
-
-extension HUDMaker: VertexModelContract {
-    public func beginShape(_ kind: BeginShapeKind = .none) {
-        self.vertexModel.beginShape(kind)
-    }
-
-    public func endShape(_ mode: EndShapeMode = .none) {
-        self.vertexModel.endShape(mode)
-    }
-
-    public func vertex(_ x: CGFloat, _ y: CGFloat) {
-        self.vertexModel.vertex(x, y)
     }
 }

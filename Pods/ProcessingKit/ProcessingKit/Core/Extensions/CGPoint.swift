@@ -1,12 +1,17 @@
 //
 //  CGPoint.swift
-//  HUDMakerKit
+//  ProcessingKit
 //
-//  Created by AtsuyaSato on 2018/09/09.
-//  Copyright © 2018年 Atsuya Sato. All rights reserved.
+//  Created by AtsuyaSato on 2017/12/30.
+//  Copyright © 2017年 Atsuya Sato. All rights reserved.
 //
 
-import Foundation
+#if os(iOS)
+import UIKit
+#elseif os(OSX)
+import Cocoa
+public typealias CGPoint = NSPoint
+#endif
 
 extension CGPoint {
     func addTo(_ a: CGPoint) -> CGPoint {

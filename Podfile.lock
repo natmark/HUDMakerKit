@@ -1,0 +1,16 @@
+PODS:
+  - ProcessingKit/Core (1.1.2)
+
+DEPENDENCIES:
+  - ProcessingKit/Core (~> 1.1.2)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ProcessingKit
+
+SPEC CHECKSUMS:
+  ProcessingKit: e9a05fae08f67cd70da786cb10aca9942c9b9049
+
+PODFILE CHECKSUM: ec16223178da820ac90829c7536111aa77b4b853
+
+COCOAPODS: 1.5.3
