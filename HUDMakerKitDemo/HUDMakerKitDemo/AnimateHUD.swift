@@ -1,15 +1,15 @@
 //
-//  CustomHUD.swift
+//  AnimateHUD.swift
 //  HUDMakerKitDemo
 //
-//  Created by AtsuyaSato on 2018/09/08.
+//  Created by AtsuyaSato on 2018/09/09.
 //  Copyright © 2018年 Atsuya Sato. All rights reserved.
 //
 
 import Foundation
 import HUDMakerKit
 
-class CustomHUD: HUDMaker {
+class AnimateHUD: HUDMaker {
     func draw(frameCount: Int) {
         clear()
         let radius = CGFloat(50)
@@ -24,5 +24,5 @@ class CustomHUD: HUDMaker {
             let rad = radians(CGFloat(i * 30))
             ellipse(centerX + radius * cos(rad), centerY + radius * sin(rad), ellipseSize, ellipseSize)
         }
-    }
+    }    
 }
