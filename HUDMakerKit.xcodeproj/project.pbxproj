@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		27A0C651589C36C0B8A9A2B8 /* Pods_HUDMakerKitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26FE5B5D1F6FC3F40F74315D /* Pods_HUDMakerKitTests.framework */; };
-		A8D44A942F773BEE5B599506 /* Pods_HUDMakerKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C62ED5936FEE6EB71BC8EDF5 /* Pods_HUDMakerKit.framework */; };
+		C4E545962A239D852199F563 /* Pods_HUDMakerKitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 111AB826BFB1E51A1D8FB8E5 /* Pods_HUDMakerKitTests.framework */; };
+		CA16EB56A700041C874BD924 /* Pods_HUDMakerKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47F87593234F0555778FAFDF /* Pods_HUDMakerKit.framework */; };
 		E7B2F5F42143F963003B642A /* HUDMakerKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7B2F5EA2143F963003B642A /* HUDMakerKit.framework */; };
 		E7B2F5FB2143F963003B642A /* HUDMakerKit.h in Headers */ = {isa = PBXBuildFile; fileRef = E7B2F5ED2143F963003B642A /* HUDMakerKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E7B2F6072143FB25003B642A /* HUDRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B2F6062143FB25003B642A /* HUDRunner.swift */; };
@@ -40,12 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1A00093838FC0CC94870C0C8 /* Pods-HUDMakerKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HUDMakerKitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HUDMakerKitTests/Pods-HUDMakerKitTests.debug.xcconfig"; sourceTree = "<group>"; };
-		26FE5B5D1F6FC3F40F74315D /* Pods_HUDMakerKitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HUDMakerKitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		32A28EF01052FB8A1E764853 /* Pods-HUDMakerKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HUDMakerKitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HUDMakerKitTests/Pods-HUDMakerKitTests.release.xcconfig"; sourceTree = "<group>"; };
-		3932E354BDCF1F365066A0E0 /* Pods-HUDMakerKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HUDMakerKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HUDMakerKit/Pods-HUDMakerKit.debug.xcconfig"; sourceTree = "<group>"; };
-		7B7BF4DA57D25FC068D45AAF /* Pods-HUDMakerKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HUDMakerKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-HUDMakerKit/Pods-HUDMakerKit.release.xcconfig"; sourceTree = "<group>"; };
-		C62ED5936FEE6EB71BC8EDF5 /* Pods_HUDMakerKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HUDMakerKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		111AB826BFB1E51A1D8FB8E5 /* Pods_HUDMakerKitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HUDMakerKitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46EFD7E12AE47F3B654A0234 /* Pods-HUDMakerKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HUDMakerKitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HUDMakerKitTests/Pods-HUDMakerKitTests.release.xcconfig"; sourceTree = "<group>"; };
+		47F87593234F0555778FAFDF /* Pods_HUDMakerKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HUDMakerKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B06BCCCC7C99881C634D167 /* Pods-HUDMakerKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HUDMakerKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HUDMakerKit/Pods-HUDMakerKit.debug.xcconfig"; sourceTree = "<group>"; };
+		A44C03E2B1FA5E147EDC34AB /* Pods-HUDMakerKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HUDMakerKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-HUDMakerKit/Pods-HUDMakerKit.release.xcconfig"; sourceTree = "<group>"; };
+		C7453BDB157A8D94DE4610C2 /* Pods-HUDMakerKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HUDMakerKitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HUDMakerKitTests/Pods-HUDMakerKitTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E7B2F5EA2143F963003B642A /* HUDMakerKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HUDMakerKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7B2F5ED2143F963003B642A /* HUDMakerKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HUDMakerKit.h; sourceTree = "<group>"; };
 		E7B2F5EE2143F963003B642A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -76,7 +76,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7B2F78321463D2C003B642A /* ProcessingKit.framework in Frameworks */,
-				A8D44A942F773BEE5B599506 /* Pods_HUDMakerKit.framework in Frameworks */,
+				CA16EB56A700041C874BD924 /* Pods_HUDMakerKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,33 +85,33 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7B2F5F42143F963003B642A /* HUDMakerKit.framework in Frameworks */,
-				27A0C651589C36C0B8A9A2B8 /* Pods_HUDMakerKitTests.framework in Frameworks */,
+				C4E545962A239D852199F563 /* Pods_HUDMakerKitTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D95FFBB460A7A4052B857EB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8B06BCCCC7C99881C634D167 /* Pods-HUDMakerKit.debug.xcconfig */,
+				A44C03E2B1FA5E147EDC34AB /* Pods-HUDMakerKit.release.xcconfig */,
+				C7453BDB157A8D94DE4610C2 /* Pods-HUDMakerKitTests.debug.xcconfig */,
+				46EFD7E12AE47F3B654A0234 /* Pods-HUDMakerKitTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		424B9C086F4062DB767BA292 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				E7B2F78221463D2C003B642A /* ProcessingKit.framework */,
 				E7B2F77C2146240F003B642A /* ProcessingKit.framework */,
-				C62ED5936FEE6EB71BC8EDF5 /* Pods_HUDMakerKit.framework */,
-				26FE5B5D1F6FC3F40F74315D /* Pods_HUDMakerKitTests.framework */,
+				47F87593234F0555778FAFDF /* Pods_HUDMakerKit.framework */,
+				111AB826BFB1E51A1D8FB8E5 /* Pods_HUDMakerKitTests.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		6692BD2935E054F9517900C5 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				3932E354BDCF1F365066A0E0 /* Pods-HUDMakerKit.debug.xcconfig */,
-				7B7BF4DA57D25FC068D45AAF /* Pods-HUDMakerKit.release.xcconfig */,
-				1A00093838FC0CC94870C0C8 /* Pods-HUDMakerKitTests.debug.xcconfig */,
-				32A28EF01052FB8A1E764853 /* Pods-HUDMakerKitTests.release.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 		E7B2F5E02143F963003B642A = {
@@ -120,8 +120,8 @@
 				E7B2F5EC2143F963003B642A /* HUDMakerKit */,
 				E7B2F5F72143F963003B642A /* HUDMakerKitTests */,
 				E7B2F5EB2143F963003B642A /* Products */,
-				6692BD2935E054F9517900C5 /* Pods */,
 				424B9C086F4062DB767BA292 /* Frameworks */,
+				2D95FFBB460A7A4052B857EB /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -208,7 +208,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E7B2F5FE2143F963003B642A /* Build configuration list for PBXNativeTarget "HUDMakerKit" */;
 			buildPhases = (
-				5B4EF0CA098ACB2AF0FE3430 /* [CP] Check Pods Manifest.lock */,
+				4AFA2323261FA893E6406DF1 /* [CP] Check Pods Manifest.lock */,
 				E7B2F5E52143F963003B642A /* Sources */,
 				E7B2F5E62143F963003B642A /* Frameworks */,
 				E7B2F5E72143F963003B642A /* Headers */,
@@ -227,11 +227,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E7B2F6012143F963003B642A /* Build configuration list for PBXNativeTarget "HUDMakerKitTests" */;
 			buildPhases = (
-				B16DED08BE0BE2CDF0A08CC5 /* [CP] Check Pods Manifest.lock */,
+				D42CA48FFCFC6A767CA52110 /* [CP] Check Pods Manifest.lock */,
 				E7B2F5EF2143F963003B642A /* Sources */,
 				E7B2F5F02143F963003B642A /* Frameworks */,
 				E7B2F5F12143F963003B642A /* Resources */,
-				A28E8D95BFD6146C65066313 /* [CP] Embed Pods Frameworks */,
+				1BEB5D2C888EECE7C7B2B993 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -298,34 +298,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		5B4EF0CA098ACB2AF0FE3430 /* [CP] Check Pods Manifest.lock */ = {
+		1BEB5D2C888EECE7C7B2B993 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-HUDMakerKit-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A28E8D95BFD6146C65066313 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-HUDMakerKitTests/Pods-HUDMakerKitTests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/ProcessingKit/ProcessingKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProcessingKit.framework",
 			);
@@ -334,16 +320,42 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HUDMakerKitTests/Pods-HUDMakerKitTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B16DED08BE0BE2CDF0A08CC5 /* [CP] Check Pods Manifest.lock */ = {
+		4AFA2323261FA893E6406DF1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HUDMakerKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D42CA48FFCFC6A767CA52110 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-HUDMakerKitTests-checkManifestLockResult.txt",
 			);
@@ -517,7 +529,7 @@
 		};
 		E7B2F5FF2143F963003B642A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3932E354BDCF1F365066A0E0 /* Pods-HUDMakerKit.debug.xcconfig */;
+			baseConfigurationReference = 8B06BCCCC7C99881C634D167 /* Pods-HUDMakerKit.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -549,7 +561,7 @@
 		};
 		E7B2F6002143F963003B642A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7B7BF4DA57D25FC068D45AAF /* Pods-HUDMakerKit.release.xcconfig */;
+			baseConfigurationReference = A44C03E2B1FA5E147EDC34AB /* Pods-HUDMakerKit.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -580,7 +592,7 @@
 		};
 		E7B2F6022143F963003B642A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1A00093838FC0CC94870C0C8 /* Pods-HUDMakerKitTests.debug.xcconfig */;
+			baseConfigurationReference = C7453BDB157A8D94DE4610C2 /* Pods-HUDMakerKitTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -600,7 +612,7 @@
 		};
 		E7B2F6032143F963003B642A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 32A28EF01052FB8A1E764853 /* Pods-HUDMakerKitTests.release.xcconfig */;
+			baseConfigurationReference = 46EFD7E12AE47F3B654A0234 /* Pods-HUDMakerKitTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

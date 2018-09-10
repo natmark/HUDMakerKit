@@ -7,41 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		026207A1A999A1BA28428057 /* Pods_HUDMakerKitDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D066A2CAB4A27AC521A4CC52 /* Pods_HUDMakerKitDemo.framework */; };
 		E7B2F6152144032B003B642A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B2F6142144032B003B642A /* AppDelegate.swift */; };
 		E7B2F6172144032B003B642A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B2F6162144032B003B642A /* ViewController.swift */; };
 		E7B2F61A2144032B003B642A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7B2F6182144032B003B642A /* Main.storyboard */; };
 		E7B2F61C2144032D003B642A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7B2F61B2144032D003B642A /* Assets.xcassets */; };
 		E7B2F61F2144032D003B642A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7B2F61D2144032D003B642A /* LaunchScreen.storyboard */; };
-		E7B2F62F2144035B003B642A /* HUDMakerKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7B2F62C2144034D003B642A /* HUDMakerKit.framework */; };
-		E7B2F6302144035B003B642A /* HUDMakerKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E7B2F62C2144034D003B642A /* HUDMakerKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E7B2F63921441544003B642A /* PeriodicallyHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B2F63821441544003B642A /* PeriodicallyHUD.swift */; };
 		E7B2F6562144ED1F003B642A /* SimpleHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B2F6552144ED1F003B642A /* SimpleHUD.swift */; };
 		E7B2F6592144ED4B003B642A /* AnimateHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B2F6582144ED4B003B642A /* AnimateHUD.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		E7B2F62B2144034D003B642A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E7B2F6262144034D003B642A /* HUDMakerKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = E7B2F5EA2143F963003B642A;
-			remoteInfo = HUDMakerKit;
-		};
-		E7B2F62D2144034D003B642A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E7B2F6262144034D003B642A /* HUDMakerKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = E7B2F5F32143F963003B642A;
-			remoteInfo = HUDMakerKitTests;
-		};
-		E7B2F6312144035B003B642A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E7B2F6262144034D003B642A /* HUDMakerKit.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = E7B2F5E92143F963003B642A;
-			remoteInfo = HUDMakerKit;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		E7B2F6332144035B003B642A /* Embed Frameworks */ = {
@@ -50,7 +25,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				E7B2F6302144035B003B642A /* HUDMakerKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -58,6 +32,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		596DA6ADABF8509D9D7A0772 /* Pods-HUDMakerKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HUDMakerKitDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HUDMakerKitDemo/Pods-HUDMakerKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		CFDEB31395898B5ABA7CFF8F /* Pods-HUDMakerKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HUDMakerKitDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-HUDMakerKitDemo/Pods-HUDMakerKitDemo.release.xcconfig"; sourceTree = "<group>"; };
+		D066A2CAB4A27AC521A4CC52 /* Pods_HUDMakerKitDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HUDMakerKitDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7B2F6112144032B003B642A /* HUDMakerKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HUDMakerKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7B2F6142144032B003B642A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E7B2F6162144032B003B642A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -65,7 +42,6 @@
 		E7B2F61B2144032D003B642A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E7B2F61E2144032D003B642A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E7B2F6202144032D003B642A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E7B2F6262144034D003B642A /* HUDMakerKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = HUDMakerKit.xcodeproj; path = ../HUDMakerKit.xcodeproj; sourceTree = "<group>"; };
 		E7B2F63821441544003B642A /* PeriodicallyHUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodicallyHUD.swift; sourceTree = "<group>"; };
 		E7B2F6552144ED1F003B642A /* SimpleHUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleHUD.swift; sourceTree = "<group>"; };
 		E7B2F6582144ED4B003B642A /* AnimateHUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateHUD.swift; sourceTree = "<group>"; };
@@ -76,19 +52,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7B2F62F2144035B003B642A /* HUDMakerKit.framework in Frameworks */,
+				026207A1A999A1BA28428057 /* Pods_HUDMakerKitDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A04F032BF9F80A6765ECD6A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D066A2CAB4A27AC521A4CC52 /* Pods_HUDMakerKitDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7DA8608E9173E9B5B575836 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				596DA6ADABF8509D9D7A0772 /* Pods-HUDMakerKitDemo.debug.xcconfig */,
+				CFDEB31395898B5ABA7CFF8F /* Pods-HUDMakerKitDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E7B2F6082144032B003B642A = {
 			isa = PBXGroup;
 			children = (
-				E7B2F6262144034D003B642A /* HUDMakerKit.xcodeproj */,
 				E7B2F6132144032B003B642A /* HUDMakerKitDemo */,
 				E7B2F6122144032B003B642A /* Products */,
+				C7DA8608E9173E9B5B575836 /* Pods */,
+				A04F032BF9F80A6765ECD6A5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -116,15 +110,6 @@
 			path = HUDMakerKitDemo;
 			sourceTree = "<group>";
 		};
-		E7B2F6272144034D003B642A /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				E7B2F62C2144034D003B642A /* HUDMakerKit.framework */,
-				E7B2F62E2144034D003B642A /* HUDMakerKitTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,15 +117,16 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E7B2F6232144032D003B642A /* Build configuration list for PBXNativeTarget "HUDMakerKitDemo" */;
 			buildPhases = (
+				E2D19CCA811F5A40EB40946E /* [CP] Check Pods Manifest.lock */,
 				E7B2F60D2144032B003B642A /* Sources */,
 				E7B2F60E2144032B003B642A /* Frameworks */,
 				E7B2F60F2144032B003B642A /* Resources */,
 				E7B2F6332144035B003B642A /* Embed Frameworks */,
+				183CA91CB5728DF9D1C12B05 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E7B2F6322144035B003B642A /* PBXTargetDependency */,
 			);
 			name = HUDMakerKitDemo;
 			productName = HUDMakerKitDemo;
@@ -173,35 +159,12 @@
 			mainGroup = E7B2F6082144032B003B642A;
 			productRefGroup = E7B2F6122144032B003B642A /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = E7B2F6272144034D003B642A /* Products */;
-					ProjectRef = E7B2F6262144034D003B642A /* HUDMakerKit.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				E7B2F6102144032B003B642A /* HUDMakerKitDemo */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		E7B2F62C2144034D003B642A /* HUDMakerKit.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = HUDMakerKit.framework;
-			remoteRef = E7B2F62B2144034D003B642A /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		E7B2F62E2144034D003B642A /* HUDMakerKitTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = HUDMakerKitTests.xctest;
-			remoteRef = E7B2F62D2144034D003B642A /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		E7B2F60F2144032B003B642A /* Resources */ = {
@@ -215,6 +178,55 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		183CA91CB5728DF9D1C12B05 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HUDMakerKitDemo/Pods-HUDMakerKitDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/HUDMakerKit/HUDMakerKit.framework",
+				"${BUILT_PRODUCTS_DIR}/ProcessingKit/ProcessingKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HUDMakerKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProcessingKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HUDMakerKitDemo/Pods-HUDMakerKitDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2D19CCA811F5A40EB40946E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HUDMakerKitDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E7B2F60D2144032B003B642A /* Sources */ = {
@@ -230,14 +242,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		E7B2F6322144035B003B642A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = HUDMakerKit;
-			targetProxy = E7B2F6312144035B003B642A /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		E7B2F6182144032B003B642A /* Main.storyboard */ = {
@@ -375,6 +379,7 @@
 		};
 		E7B2F6242144032D003B642A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 596DA6ADABF8509D9D7A0772 /* Pods-HUDMakerKitDemo.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -394,6 +399,7 @@
 		};
 		E7B2F6252144032D003B642A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFDEB31395898B5ABA7CFF8F /* Pods-HUDMakerKitDemo.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;

@@ -1,6 +1,0 @@
-framework module ProcessingKit {
-  umbrella header "ProcessingKit-umbrella.h"
-
-  export *
-  module * { export * }
-}

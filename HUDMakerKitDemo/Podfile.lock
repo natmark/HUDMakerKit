@@ -1,16 +1,20 @@
 PODS:
+  - HUDMakerKit (0.2.3):
+    - ProcessingKit/Core
   - ProcessingKit/Core (1.1.3)
 
 DEPENDENCIES:
-  - ProcessingKit/Core (~> 1.1.3)
+  - HUDMakerKit
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - HUDMakerKit
     - ProcessingKit
 
 SPEC CHECKSUMS:
+  HUDMakerKit: 4eeececdbddfe21cb52a0f42797b86ae92c86499
   ProcessingKit: 337942def364b2c013d5a0b2255d29127605974e
 
-PODFILE CHECKSUM: 2d6ef85ae1fa0d828d4957f90f225d3273e1b822
+PODFILE CHECKSUM: 670e6d188a6ea5ca9ead771224658268232b98ef
 
 COCOAPODS: 1.5.3
