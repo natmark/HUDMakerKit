@@ -5,6 +5,7 @@ branches:
     - master
 before_install:
     - gem install xcpretty
+    - carthage bootstrap --platform iOS --no-use-binaries --cache-builds
 before_script:
     - set -o pipefail
 script:
