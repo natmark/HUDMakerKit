@@ -125,6 +125,8 @@ Add the following to your `Cartfile`:
   github "natmark/HUDMakerKit"
 ```
 
+- Link your app with `HUDMakerKit.framework` and `ProcessingKit.framework` in Carthage/Build
+
 ## Dependency
 - [ProcessingKit/Core](https://github.com/natmark/ProcessingKit/)
 
