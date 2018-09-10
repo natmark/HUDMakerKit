@@ -125,5 +125,8 @@ Add the following to your `Cartfile`:
   github "natmark/HUDMakerKit"
 ```
 
+## Dependency
+- [ProcessingKit/Core](https://github.com/natmark/ProcessingKit/)
+
 ## License
 HUDMakerKit is available under the MIT license. See the LICENSE file for more info.
