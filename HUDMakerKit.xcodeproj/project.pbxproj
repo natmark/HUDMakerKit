@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		27A0C651589C36C0B8A9A2B8 /* Pods_HUDMakerKitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26FE5B5D1F6FC3F40F74315D /* Pods_HUDMakerKitTests.framework */; };
+		A8D44A942F773BEE5B599506 /* Pods_HUDMakerKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C62ED5936FEE6EB71BC8EDF5 /* Pods_HUDMakerKit.framework */; };
 		E7B2F5F42143F963003B642A /* HUDMakerKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7B2F5EA2143F963003B642A /* HUDMakerKit.framework */; };
 		E7B2F5FB2143F963003B642A /* HUDMakerKit.h in Headers */ = {isa = PBXBuildFile; fileRef = E7B2F5ED2143F963003B642A /* HUDMakerKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E7B2F6072143FB25003B642A /* HUDRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B2F6062143FB25003B642A /* HUDRunner.swift */; };
@@ -75,6 +76,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7B2F78321463D2C003B642A /* ProcessingKit.framework in Frameworks */,
+				A8D44A942F773BEE5B599506 /* Pods_HUDMakerKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
