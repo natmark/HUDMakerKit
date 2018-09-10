@@ -6,7 +6,7 @@ branches:
 before_install:
     - bundle install
     - carthage bootstrap --platform iOS --no-use-binaries --cache-builds
-    - bundle exec pod install
+    - bundle exec pod install --repo-update
 before_script:
     - set -o pipefail
 script:
