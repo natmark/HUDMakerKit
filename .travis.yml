@@ -9,5 +9,5 @@ before_script:
     - set -o pipefail
 script:
     - swiftlint
-    - xcodebuild test -project ./HUDMakerKit.xcodeproj -scheme HUDMakerKitTests -configuration Debug -sdk iphonesimulator -destination 'platform=iOS Simulator,OS=11.4,name=iPhone X' | xcpretty -c
+    - xcodebuild test -workspace ./HUDMakerKit.xcworkspace -scheme HUDMakerKitTests -configuration Debug -sdk iphonesimulator -destination 'platform=iOS Simulator,OS=11.4,name=iPhone X' | xcpretty -c
 
