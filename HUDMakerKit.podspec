@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'HUDMakerKit'
-  s.version          = '0.2.3'
+  s.version          = '0.2.4'
   s.summary          = 'Customized Head-Up Display Maker'
   s.description      = <<-DESC
   HUDMakerKit is customized Head-Up Display Maker written in Swift🐧.
