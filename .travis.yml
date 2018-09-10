@@ -6,6 +6,7 @@ branches:
 before_install:
     - gem install xcpretty
     - carthage bootstrap --platform iOS --no-use-binaries --cache-builds
+    - pod install
 before_script:
     - set -o pipefail
 script:
