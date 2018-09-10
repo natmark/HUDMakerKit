@@ -22,7 +22,6 @@ extension HUDMaker: ColorModelContract {
 
     public func clear() {
         self.colorModel.clear()
-        self.background(UIColor.white)
     }
 
     public func fill(_ color: UIColor) {
