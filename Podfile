@@ -5,4 +5,9 @@ target 'HUDMakerKit' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
   pod 'ProcessingKit/Core', '~> 1.1.2'
+
+    target 'HUDMakerKitTests' do
+        inherit! :search_paths
+        pod 'ProcessingKit/Core', '~> 1.1.2'
+    end
 end
